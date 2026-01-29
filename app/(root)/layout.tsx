@@ -6,8 +6,10 @@ const layout = ({children} : {children : React.ReactNode}) => {
     <main className='min-h-screen text-gray-400'>
         {/* header -> will be in every single page inside the root folder */}
         <Header/>
-        <div className='container py-10'></div>
+        <div className='container py-10'>
            {children}
+        </div>
+          
         </main>
   )
 }
